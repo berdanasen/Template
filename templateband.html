@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Band</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-light p-0" style="z-index: 1; position: fixed; width: 100%;">
+        <div class="container-fluid">
+            <a class="navbar-brand m-0" style="font-size: 15px; color:white; padding: 12px 24px;" href="#">HOME</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="padding:12px 24px;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" style="font-size: 15px;">
+                    <li class="nav-item active">
+                        <a class="nav-link" style="color:white; padding: 12px 24px;" href="#band">BAND <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color:white; padding: 12px 24px;" href="#tour">TOUR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color:white; padding: 12px 24px;" href="#contact">CONTACT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle;" style="color:white; padding: 12px 24px;  "
+                            href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            MORE
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Merchandise</a>
+                            <a class="dropdown-item" href="#">Extras</a>
+                            <a class="dropdown-item" href="#">Media</a>
+                        </div>
+                    </li>
+                </ul>
+                <i class="navbar-dark ml-auto" style="color: white; padding:12px 24px; height: 45.795px;">
+                    <span class="fa fa-search"></span>
+                </i>
+            </div>
+        </div>
+    </nav>
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="la.jpg" style="vertical-align: center; width: 100%;">
+                <div class="carousel-caption">
+                    <h3>Los Angeles</h3>
+                    <p><b>We had the best time playing at Venice Beach!</b></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="ny.jpg" style="vertical-align: center; width: 100%;">
+                <div class="carousel-caption">
+                    <h3>New York</h3>
+                    <p><b>The atmosphere in New York is lorem ipsum.</b></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="chicago.jpg" style="vertical-align: center; width: 100%;">
+                <div class="carousel-caption">
+                    <h3>Chicago</h3>
+                    <p><b>Thank you, Chicago - A night we won't forget.</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="band" style="padding: 64px 16px;">
+        <div class="ml-auto mr-auto">
+            <h2 class="text-center mb-0" style="color:black;">THE BAND</h2>
+            <p class="text-center mt-3 mb-3 text-secondary" style="font-style: italic;">We love music</p>
+            <p class="mt-3 mb-3" style="color:black; text-align:justify;">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="row" style="padding:32px 0;">
+            <div class="col-md-4 ml-auto mr-auto">
+                <p class="text-center">Name</p>
+                <img class="d-block mx-auto" src="bandmember.jpg" style="width: 60%; margin-bottom: 16px;">
+            </div>
+            <div class="col-md-4 ml-auto mr-auto">
+                <p class="text-center">Name</p>
+                <img class="d-block mx-auto" src="bandmember.jpg" style="width: 60%; margin-bottom: 16px;">
+            </div>
+            <div class="col-md-4 ml-auto mr-auto">
+                <p class="text-center">Name</p>
+                <img class="d-block mx-auto" src="bandmember.jpg" style="width: 60%; margin-bottom: 16px;">
+            </div>
+        </div>
+    </div>
+    <div class="align-items-center" id="tour" style="padding:64px 16px; margin:0; background-color: black; width: 100%;">
+        <h2 class="text-center" style="color: white; margin:10px 0;">TOUR DATES</h2>
+        <p class="text-secondary text-center" style="font-style: italic; margin:15px 0;">Remember to book your tickets!</p>
+        <br>
+        <ul class="text-secondary p-0" style="border: 1px solid #ccc!important; background-color: #fff!important; list-style-type: none;">
+            <li style="padding:8px 16px;">
+                September
+                <span class="bg-danger text-white" style="margin-left: 16px; padding:0 8px;">
+                    Sold out
+                </span>
+            </li>
+            <li style="padding:8px 16px;">
+                October
+                <span class="bg-danger text-white" style="margin-left: 16px; padding:0 8px;">
+                    Sold out
+                </span>
+            </li>
+            <li style="padding:8px 16px;">
+                November
+                <span class="bg-dark text-white mr-auto" style="margin-right: 16px; padding:0 8px; border-radius: 50%; float:right">
+                    3
+                </span>
+            </li>
+        </ul>
+        <div class="row" style="padding:32px 8px;">
+            <div class="col-md-4 mb-3">
+                <div style="background-color: white;">
+                    <img src="newyork.jpg" style="width: 100%; vertical-align: middle; border-style: none;">
+                    <div class="ml-2 mt-2" style="font-size:15px;">
+                        <p class="mt-0"><b>New York</b></p>
+                        <p class="mb-2 text-muted">Fri 27 Nov 2016</p>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="btn btn-dark mb-2" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div style="background-color: white;">
+                    <img src="paris.jpg" style="width: 100%; vertical-align: middle; border-style: none;">
+                    <div class="ml-2 mt-2" style="font-size:15px;">
+                        <p class="mt-0"><b>Paris</b></p>
+                        <p class="mb-2 text-muted">Sat 28 Nov 2016</p>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="btn btn-dark mb-2" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div style="background-color: white;">
+                    <img src="sanfran.jpg" style="width: 100%; vertical-align: middle; border-style: none;">
+                    <div class="ml-2 mt-2" style="font-size:15px;">
+                        <p class="mt-0"><b>San Francisco</b></p>
+                        <p class="mb-2 text-muted">Sun 29 Nov 2016</p>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="btn btn-dark mb-2" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contact" style="margin:0 31px; padding:64px 16px;">
+        <h2 class="text-center" style="margin:10px 0; color:black;">CONTACT</h2>
+        <p class="text-center text-muted" style="margin:0 15px; font-style: italic;">Fan? Drop a note!</p>
+        <div class="row" style="padding:32px 0;">
+            <div class="col-md-6">
+                <i class="fa fa-map-marker-alt" style="width:30px;"></i>
+                Chicago, US
+                <br>
+                <i class="fa fa-phone" style="width:30px;"></i>
+                Phone: +00 151515
+                <br>
+                <i class="fa fa-envelope" style="width:30px;"></i>
+                Email: mail@mail.com
+                <br>
+            </div>
+            <div class="col-md-6">
+                <form action="/action_page.php" target="_blank">
+                    <div class="row" style="margin:0 16px; padding:0 8px;">
+                        <div class="col-md-6" style="padding:0 8px;">
+                            <input type="text" placeholder="Name" required name="Name" style="border: 1px solid #ccc!important; width: 100%; padding:8px;">
+                        </div>
+                        <div class="col-md-6" style="padding:0 8px;">
+                            <input type="text" placeholder="Email" required name="Email" style="border: 1px solid #ccc!important; width: 100%; padding:8px;">
+                        </div>
+                        <div class="col-md-12 mt-2" style="padding:0 8px;">
+                            <input type="text" placeholder="Message" required name="Message" style="border: 1px solid #ccc!important;width: 100%; padding:8px;">
+                            <button class="btn btn-dark" style="float:right; margin:16px 0; padding:8px 16px; border:0; background-color: black;" type="submit">
+                                SEND
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <img src="map.jpg" style="width: 100%;">
+    <footer class="container text-center text-dark" style="padding:64px 16px; font-size: 24px; opacity: 0.8;">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-snapchat"></i>
+        <i class="fab fa-pinterest"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin-in"></i>
+        <p class="mt-2" style="font-size: 15px;">
+            Powered by
+            <a class="text-dark" href="https://www.schools.com/w3css/default.asp" target="_blank" style=" text-decoration: underline;">
+                w3.css
+            </a>
+        </p>
+    </footer>
+    <!-- Buy Ticket -->
+    <div id="ticketModal" class="modal" style="display: none; padding-top: 50px;">
+        <div class="modal-content card-4" style="margin:0 61.5px; position:relative;">
+            <header class="container text-center" style="background-color: #009688;;padding:32px 16px;">
+                <span onclick="document.getElementById('ticketModal').style.display='none'" class="btn-outline-light" style="padding:8px 16px; position: absolute; top:0; right:0;">x
+                </span>
+                <h2>
+                    <i class="fa fa-suitcase margin-right" style="color: white;"></i>
+                    <span class="ml-2" style="color: white;">
+                        Tickets
+                    </span>  
+                </h2>
+            </header>
+            <div class="container" style="padding:0 15px;">
+                <p style="margin:15px 0; font-size:15px;">
+                    <label>
+                        <i class="fa fa-shopping-cart"></i>
+                        Tickets, $15 per person
+                    </label>
+                </p>
+                <input style="padding:8px 8px; border: 1px solid #ccc!important;" type="text" placeholder="How many?">
+                <p style="margin:15px 0; font-size:15px;">
+                    <label>
+                        <i class="fa fa-user"></i>
+                        Send To
+                    </label>
+                </p>
+                <input style="padding:8px 8px; border: 1px solid #ccc!important;" type="text" placeholder="Enter email">
+                <button class="btn-outline-info d-block" style="background-color: #009688; padding:16px 16px; width: 100%; border:0; color:white; margin:16px 0;">
+                    PAY
+                    <i class="fa fa-check"></i>
+                </button>
+                <div class="mb-3" style="position:relative;">
+                    <button class="btn-danger" onclick="document.getElementById('ticketModal').style.display='none'" style="border:0;">
+                        Close
+                        <i class="fa fa-times"></i>
+                    </button>
+                    <p style="position:absolute; top:0; right:0;">Need
+                        <a href="#" class="text-info">help?</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+</body>
+</html>
